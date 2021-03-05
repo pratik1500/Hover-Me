@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50vh;
+}
+
+button {
+  height: 10vh;
+  width: 20vh;
+  font-size: 3vh;
+  border: 1px solid goldenrod;
+  background-color: black;
+  color: goldenrod;
+  transition-duration: 1s;
+}
+
+body {
+  background-color: black;
+}
+
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px goldenrod, -2px -2px goldenrod;
+}
+
+/* this is a sample comment */
